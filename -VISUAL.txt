@@ -1,0 +1,352 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 23 | Scripts: 6 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- StarterGui.ScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- StarterGui.ScreenGui.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2"]["Size"] = UDim2.new(0, 200, 0, 501);
+G2L["2"]["Position"] = UDim2.new(0.38376, 0, 0.16504, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["BackgroundTransparency"] = 0.5;
+
+
+-- StarterGui.ScreenGui.Frame.TextButton
+G2L["3"] = Instance.new("TextButton", G2L["2"]);
+G2L["3"]["BorderSizePixel"] = 0;
+G2L["3"]["TextSize"] = 14;
+G2L["3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(199, 199, 199);
+G2L["3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["3"]["Size"] = UDim2.new(0, 166, 0, 50);
+G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["Text"] = [[Decal]];
+G2L["3"]["Position"] = UDim2.new(0.08054, 0, 0.03846, 0);
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.UICorner
+G2L["4"] = Instance.new("UICorner", G2L["3"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+G2L["5"] = Instance.new("LocalScript", G2L["3"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton
+G2L["6"] = Instance.new("TextButton", G2L["2"]);
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["TextSize"] = 14;
+G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(199, 199, 199);
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["6"]["Size"] = UDim2.new(0, 166, 0, 50);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Text"] = [[Sky]];
+G2L["6"]["Position"] = UDim2.new(0.07584, 0, 0.1702, 0);
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.UICorner
+G2L["7"] = Instance.new("UICorner", G2L["6"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+G2L["8"] = Instance.new("LocalScript", G2L["6"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton
+G2L["9"] = Instance.new("TextButton", G2L["2"]);
+G2L["9"]["BorderSizePixel"] = 0;
+G2L["9"]["TextSize"] = 14;
+G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["BackgroundColor3"] = Color3.fromRGB(199, 199, 199);
+G2L["9"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["9"]["Size"] = UDim2.new(0, 166, 0, 50);
+G2L["9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9"]["Text"] = [[Sound]];
+G2L["9"]["Position"] = UDim2.new(0.08054, 0, 0.29515, 0);
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+G2L["a"] = Instance.new("LocalScript", G2L["9"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.UICorner
+G2L["b"] = Instance.new("UICorner", G2L["9"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton
+G2L["c"] = Instance.new("TextButton", G2L["2"]);
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["TextSize"] = 14;
+G2L["c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(199, 199, 199);
+G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c"]["Size"] = UDim2.new(0, 166, 0, 50);
+G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Text"] = [[Disco]];
+G2L["c"]["Position"] = UDim2.new(0.08084, 0, 0.42387, 0);
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.UICorner
+G2L["d"] = Instance.new("UICorner", G2L["c"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+G2L["e"] = Instance.new("LocalScript", G2L["c"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton
+G2L["f"] = Instance.new("TextButton", G2L["2"]);
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["TextSize"] = 14;
+G2L["f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(199, 199, 199);
+G2L["f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["f"]["Size"] = UDim2.new(0, 166, 0, 50);
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Text"] = [[Hint]];
+G2L["f"]["Position"] = UDim2.new(0.07533, 0, 0.55751, 0);
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.UICorner
+G2L["10"] = Instance.new("UICorner", G2L["f"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+G2L["11"] = Instance.new("LocalScript", G2L["f"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.UICorner
+G2L["12"] = Instance.new("UICorner", G2L["2"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.UIDragDetector
+G2L["13"] = Instance.new("UIDragDetector", G2L["2"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextLabel
+G2L["14"] = Instance.new("TextLabel", G2L["2"]);
+G2L["14"]["BorderSizePixel"] = 0;
+G2L["14"]["TextSize"] = 14;
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["14"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["BackgroundTransparency"] = 1;
+G2L["14"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Text"] = [[Sun Team]];
+G2L["14"]["Position"] = UDim2.new(-0.01284, 0, 0.65662, 0);
+
+
+-- StarterGui.ScreenGui.Frame.ImageLabel
+G2L["15"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- [ERROR] cannot convert ImageContent, please report to "https://github.com/uniquadev/GuiToLuaConverter/issues"
+G2L["15"]["Image"] = [[rbxassetid://122585553653209]];
+G2L["15"]["Size"] = UDim2.new(0, 90, 0, 60);
+G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["BackgroundTransparency"] = 1;
+G2L["15"]["Position"] = UDim2.new(0.265, 0, 0.73054, 0);
+
+
+-- StarterGui.ScreenGui.Frame.ImageLabel.LocalScript
+G2L["16"] = Instance.new("LocalScript", G2L["15"]);
+
+
+
+-- StarterGui.ScreenGui.Frame.TextLabel
+G2L["17"] = Instance.new("TextLabel", G2L["2"]);
+G2L["17"]["BorderSizePixel"] = 0;
+G2L["17"]["TextSize"] = 14;
+G2L["17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/Sarpanch.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17"]["BackgroundTransparency"] = 1;
+G2L["17"]["Size"] = UDim2.new(0, 200, 0, 50);
+G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17"]["Text"] = [[Join Today]];
+G2L["17"]["Position"] = UDim2.new(-0.00784, 0, 0.8183, 0);
+
+
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_5()
+local script = G2L["5"];
+	-- LocalScript para colocar Decal
+	local button = script.Parent
+	local decalId = "rbxassetid://122585553653209" -- substitua pelo seu Decal
+	
+	button.MouseButton1Click:Connect(function()
+		for _, obj in pairs(workspace:GetDescendants()) do
+			if obj:IsA("BasePart") then
+				local decal = Instance.new("Decal")
+				decal.Texture = decalId
+				decal.Face = Enum.NormalId.Front
+				decal.Parent = obj
+			end
+		end
+	end)
+	
+end;
+task.spawn(C_5);
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_8()
+local script = G2L["8"];
+	-- LocalScript para Sky em loop
+	local button = script.Parent
+	local skies = {
+		"rbxassetid://122585553653209", -- Sky 1
+		"rbxassetid://10755920324"  -- Sky 2
+	}
+	
+	button.MouseButton1Click:Connect(function()
+		local sky = Instance.new("Sky")
+		sky.Parent = game.Lighting
+		local index = 1
+		while true do
+			sky.SkyboxBk = skies[index]
+			sky.SkyboxDn = skies[index]
+			sky.SkyboxFt = skies[index]
+			sky.SkyboxLf = skies[index]
+			sky.SkyboxRt = skies[index]
+			sky.SkyboxUp = skies[index]
+	
+			index = index % #skies + 1
+			wait(0.2)
+		end
+	end)
+	
+end;
+task.spawn(C_8);
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_a()
+local script = G2L["a"];
+	-- LocalScript para som em loop
+	local player = game.Players.LocalPlayer
+	local button = script.Parent -- supondo que o script esteja dentro do botão
+	local soundId = "rbxassetid://78127128578882" -- substitua pelo ID do som que quer
+	
+	button.MouseButton1Click:Connect(function()
+		local sound = Instance.new("Sound", workspace)
+		sound.SoundId = soundId
+		sound.Looped = true
+		sound:Play()
+	end)
+	
+end;
+task.spawn(C_a);
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_e()
+local script = G2L["e"];
+	-- LocalScript para disco que troca cores em loop
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local function randomColor()
+			return Color3.new(math.random(), math.random(), math.random())
+		end
+	
+		while true do
+			for _, obj in pairs(workspace:GetDescendants()) do
+				if obj:IsA("BasePart") then
+					obj.Color = randomColor()
+				end
+			end
+			wait(0.5) -- muda a cor a cada 0.5s, pode ajustar
+		end
+	end)
+	
+end;
+task.spawn(C_e);
+-- StarterGui.ScreenGui.Frame.TextButton.LocalScript
+local function C_11()
+local script = G2L["11"];
+	-- LocalScript para Hint digitando em loop
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		local player = game.Players.LocalPlayer
+		while true do
+			local hint = Instance.new("Hint", workspace)
+			hint.Text = "THE SUN TEAM IS F*CK*NG HACKING THIS GAME, PLEASE WAIT..."
+			wait(1)
+			hint.Text = "THE SUN TEAM IS F*CK*NG HACKING THIS GAME, PLEASE WAIT.."
+			wait(1)
+			hint.Text = "THE SUN TEAM IS F*CK*NG HACKING THIS GAME, PLEASE WAIT."
+			wait(1)
+		end
+	end)
+	
+end;
+task.spawn(C_11);
+-- StarterGui.ScreenGui.Frame.ImageLabel.LocalScript
+local function C_16()
+local script = G2L["16"];
+	-- LocalScript dentro do ImageLabel
+	local TweenService = game:GetService("TweenService")
+	local imageLabel = script.Parent
+	local rotationTime = 2 -- tempo para girar 360°, ajuste para mais rápido ou lento
+	local pauseTime = 0.5 -- pausa no fim da rotação
+	
+	-- Função para girar a ImageLabel
+	local function rotateOnce()
+		-- Criar Tween para girar 360°
+		local tweenInfo = TweenInfo.new(
+			rotationTime,
+			Enum.EasingStyle.Sine, -- animação suave
+			Enum.EasingDirection.InOut
+		)
+		local goal = {Rotation = imageLabel.Rotation + 360}
+		local tween = TweenService:Create(imageLabel, tweenInfo, goal)
+	
+		tween:Play()
+		tween.Completed:Wait()
+	end
+	
+	-- Loop infinito
+	while true do
+		rotateOnce()
+		wait(pauseTime) -- pausa de 0,5s
+		-- Girar de volta suavemente
+		local tweenInfo = TweenInfo.new(
+			rotationTime,
+			Enum.EasingStyle.Sine,
+			Enum.EasingDirection.InOut
+		)
+		local goal = {Rotation = imageLabel.Rotation - 360}
+		local tween = TweenService:Create(imageLabel, tweenInfo, goal)
+		tween:Play()
+		tween.Completed:Wait()
+		wait(pauseTime)
+	end
+	
+end;
+task.spawn(C_16);
+
+return G2L["1"], require;
